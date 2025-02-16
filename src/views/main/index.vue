@@ -1,9 +1,9 @@
 <script setup>
-import navigation from './components/navigation/index.vue' 
+import navigation from './components/navigation/index.vue'
 </script>
 
 <template>
-  <navigation/>
+  <navigation />
 </template>
 
 <style scoped></style>
