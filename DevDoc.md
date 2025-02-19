@@ -21,14 +21,20 @@ axios相应拦截器
 环境变量 dev prod
 
 # 封装组件
+
 ## svg
+
 src\libs\svg-icon\index.vue
 在Vue应用中安装和使用一个自定义的SVG图标组件库。
 把封装的svg插件，在vite中注册：vite-plugin-svg-icons
 main.js注册
 
+## 目录滑块
+
 # tailwind使用
-ul  li  最后一个元素
+
+ul li 最后一个元素
+
 ```
 <li
   v-for="item in _categorys"

@@ -7,13 +7,13 @@ import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
-    vue(), 
+    vue(),
     tailwindcss(),
     createSvgIconsPlugin({
       // 指定需要缓存的图标文件夹
       iconDirs: [path.resolve(process.cwd(), 'src/assets/icons')],
-      symbolId: 'icon-[name]'
-    })
+      symbolId: 'icon-[name]',
+    }),
   ],
   resolve: {
     alias: {
@@ -29,5 +29,3 @@ export default defineConfig({
     },
   },
 })
-
-

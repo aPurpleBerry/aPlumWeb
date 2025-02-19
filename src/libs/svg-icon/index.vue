@@ -1,8 +1,6 @@
 <template>
   <svg aria-hidden="true">
-    <use :xlink:href="symbolId" 
-      :class="fillClass"
-      :fill="color"/>
+    <use :xlink:href="symbolId" :class="fillClass" :fill="color" />
   </svg>
 </template>
 
@@ -13,16 +11,16 @@ const props = defineProps({
   // 显示的SVG
   name: {
     type: String,
-    required: true
+    required: true,
   },
   // SVG图标的颜色
   color: {
-    type: String
+    type: String,
   },
   // tailwind指定SVG颜色的类名
   fillClass: {
-    type: String
-  }
+    type: String,
+  },
 })
 
 const symbolId = computed(() => {
