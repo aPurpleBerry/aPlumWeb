@@ -12,4 +12,7 @@
   --text-lg--line-height: 0.65rem; 
   --text-xl: 0.65rem;
   --text-xl--line-height: 0.75rem; 
+
+
+  --shadow-nav-white:  -10px 0 10px white; /*https://tailwindcss.com/docs/box-shadow*/
 }

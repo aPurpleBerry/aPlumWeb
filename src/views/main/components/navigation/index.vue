@@ -15,11 +15,10 @@ getCategoryData()
 </script>
 
 <template>
-  <mobileNavigation 
+  <mobileNavigation
     v-if="isMobileTerminal"
     :_categorys="_categorys"
-  >
-  </mobileNavigation>
+  ></mobileNavigation>
 </template>
 
 <style scoped></style>
