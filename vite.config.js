@@ -15,8 +15,8 @@ export default defineConfig({
     proxy: {
       '/api': {
         target: 'https://api.imooc-front.lgdsunday.club/',
-        changeOrigin: true
-      }
-    }
-  }
+        changeOrigin: true,
+      },
+    },
+  },
 })
